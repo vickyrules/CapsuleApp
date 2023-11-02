@@ -48,7 +48,7 @@ fun TimerBar(duration: Long) {
     AssistChip(
         onClick = { /*TODO*/ },
         label = {
-            Text(modifier = Modifier.width(85.dp),
+            Text(modifier = Modifier.width(90.dp),
                 text = stringResource(
                     id = R.string.timer_label,
                     duration / 60000,
